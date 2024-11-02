@@ -1,0 +1,2 @@
+# halsey
+Statistics Python package
