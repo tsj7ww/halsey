@@ -1,6 +1,6 @@
 git clone https://github.com/tsj7ww/halsey.git
 cd halsey
 
-chmod +x scripts/start-jupyter.sh
-
-./scripts/start-jupyter.sh # docker-compose up jupyter-lab
+docker-compose down
+docker-compose build --no-cache # jupyter-lab
+docker-compose up # jupyter-lab
