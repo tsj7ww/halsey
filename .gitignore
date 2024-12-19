@@ -84,3 +84,7 @@ docs/_build/
 # Logs
 *.log
 logs/
+
+# OS
+.DS_Store
+.Trash-*
